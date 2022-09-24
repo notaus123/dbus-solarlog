@@ -86,6 +86,6 @@ This project is build upon the basis of the inspirational work of:
 
 - RalfZim via GitHub https://github.com/RalfZim
 - Kaeferfreund via GitHub https://github.com/kaeferfreund/dbus-kostal
-- Fabian Lauer via GitHubhttps://github.com/fabian-lauer/dbus-shelly-3em-smartmeter
+- Fabian Lauer via GitHub https://github.com/fabian-lauer/dbus-shelly-3em-smartmeter
 
 
