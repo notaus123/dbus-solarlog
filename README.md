@@ -3,7 +3,7 @@ Victron Venus OS Modbus Driver for Solarlog PV Logger
 
 ### Purpose
 
-This service is meant to be run on a Venus OS Device (Multiplus GX, Cerbo GX,...) from Victron.
+This service is meant to be run on a Venus OS Device (Multiplus-II GX, Cerbo GX,...) from Victron.
 
 The Python script cyclically reads data from the Solarlog Datalogger and publishes information on the dbus as PV Inverter, using the service name pvinverter.pv0. This makes the Venus OS work as if you had a physical PV Inverter installed.
 
