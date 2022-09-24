@@ -29,7 +29,7 @@ In the Python file, you should put the IP of your (primary) Solarlog device.
    - /data/dbus-solarlog/vedbus.py
    - /data/dbus-solarlog/ve_utils.py
 
-4. Rund install-script and set rights:
+4. Run install-script
 
    /data/dbus-solarlog/install.sh
 
