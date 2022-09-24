@@ -5,11 +5,11 @@ Victron Venus OS Modbus Driver for Solarlog PV Logger
 
 This service is meant to be run on a Venus OS Device (Multiplus-II GX, Cerbo GX,...) from Victron.
 
-The Python script cyclically reads data from the Solarlog Datalogger and publishes information on the dbus as PV Inverter, using the service name pvinverter.pv0. This makes the Venus OS work as if you had a physical PV Inverter installed.
+The Python script cyclically reads the total PV-Power (PAC) from the Solarlog Datalogger and publishes information on the dbus as a PV Inverter, using the service name pvinverter.pv0. This makes the Venus OS work as if you had a physical PV Inverter installed. 
 
 ### Configuration
 
-In the Python file, you should put the IP of your (primary) Solarlog device.
+In the Python file, you must put the IP of your Solarlog device (Minimum 2.8.1 Build 49).
 
 ### Installation
 
