@@ -186,8 +186,8 @@ class solarlog_modbusquery:
             
             #pv inverter          
             
-            dbusservice['pvinverter.pv0']['/Ac/Current'] = round(self.Adr3506[3]/self.Adr3502[3],2)
-            dbusservice['pvinverter.pv0']['/Ac/L1/Current'] = round(self.Adr3506[3]/self.Adr3502[3],2)
+            dbusservice['pvinverter.pv0']['/Ac/Current'] = round(self.Adr3502[3]/self.Adr3506[3],2)
+            dbusservice['pvinverter.pv0']['/Ac/L1/Current'] = round(self.Adr3502[3]/self.Adr3506[3],2)
             dbusservice['pvinverter.pv0']['/Ac/L1/Voltage'] = self.Adr3506[3]
             dbusservice['pvinverter.pv0']['/Ac/Power'] = self.Adr3502[3]
             dbusservice['pvinverter.pv0']['/Ac/L1/Power'] = self.Adr3502[3]
