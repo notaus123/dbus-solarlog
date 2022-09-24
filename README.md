@@ -37,8 +37,8 @@ In the Python file, you should put the IP of your (primary) Solarlog device.
    
 5. Remove Driver
 
-   rm /service/dbus-solarlog
-   clean up or remove /data/rc.local
+   - rm /service/dbus-solarlog
+   - clean up or remove /data/rc.local
 
 ### Debugging
 
