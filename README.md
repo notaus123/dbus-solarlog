@@ -78,6 +78,7 @@ In my installation at home, I am using the following Hardware:
 
 - Solarlog 500 Datalogger
 - Victron MultiPlus-II GX - Battery Inverter (single phase)
+- EM24 Ethernet Grid Logger
 - Pylontech US3000C - LiFePO Battery
 
 ### Credits 🙌🏻
