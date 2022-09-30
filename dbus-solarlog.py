@@ -87,6 +87,7 @@ DBusGMainLoop(set_as_default=True)
 
 
 class solarlog_modbusquery:
+    min_timeout = 5
     def __init__(self):
         #Change the IP address and port to suite your environment:
         self.inverter_ip="192.168.0.2"
@@ -265,8 +266,8 @@ base = 'com.victronenergy'
 dbusservice['pvinverter.pv0'] = new_service(
     base, 'pvinverter.pv0', 'pvinverter',        0, 20)
 
-# Everything done so just set a time to run an update function to update the data values every 5 seconds. Solarlog refreshes only after 20 seconds
-gobject.timeout_add(5000, _update)
+# Solarlog500 refreshes every 20seconds, so no need for more work
+gobject.timeout_add(20000, _update)
 
 
 print("Connected to dbus, and switching over to gobject.MainLoop() (= event based)")
