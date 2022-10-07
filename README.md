@@ -7,6 +7,8 @@ This service is meant to be run on a Venus OS Device (Multiplus-II GX, Cerbo GX,
 
 The Python script cyclically reads the total PV-Power (PAC) from the Solarlog Datalogger (Minimum Firmware 2.8.1 Build 49) and publishes information on the dbus as single PV Inverter, using the service name pvinverter.pv0. This makes the Venus OS work as if you had a physical PV Inverter installed. 
 
+Note: This service grabs the PAC from Solarlog and puts it to Phase 1. If you have a 3 phase inverter, you have to split the power to all 3 phases. If you have combined 3 and 1 phase inverters, you should have a look at https://github.com/notaus123/dbus-solarlog-json
+
 ### Configuration
 
 In the Python file, you must put the IP of your Solarlog device.
